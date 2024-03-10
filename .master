@@ -1,0 +1,6 @@
+touch master{1..5}
+git add .
+git commit one
+git remot add fresh https://github.com/mendegoutham/fresh.git
+git push fresh master
+
